@@ -36,4 +36,4 @@ node_modules
 npm-debug.log
 public/
 !/public/img/
-.code-workspace
+*.code-workspace

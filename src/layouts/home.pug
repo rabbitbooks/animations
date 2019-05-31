@@ -1,0 +1,26 @@
+block variables
+
+<!DOCTYPE html>
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		meta(http-equiv="X-UA-Compatible", content="ie=edge")
+		title Animation examples
+		//- link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css")
+		link( href="https://fonts.googleapis.com/css?family=Akronim|Amatic+SC|Bungee+Shade|Cabin+Sketch|Kranky|Londrina+Outline|PT+Sans+Narrow&display=swap" rel="stylesheet")
+		link(rel="stylesheet", href="css/fullpage-scroll.css")
+		link(rel="stylesheet", href="css/style.css")
+
+	body(class=`${bodyClass}`)
+		.page__wrapper
+			block navigation
+			.page-scroll
+				block content
+
+	script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js")
+	//- script(src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js")
+	script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js")
+	script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js")
+	script(src="js/fullpage-scroll.js")
+	script(src="js/app.js")
