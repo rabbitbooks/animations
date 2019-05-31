@@ -1,0 +1,1 @@
+<link href="https://fonts.googleapis.com/css?family=Akronim|Amatic+SC:400,700|Bungee+Shade|Cabin+Sketch:400,700|Kranky|Londrina+Outline&display=swap&subset=cyrillic" rel="stylesheet">
