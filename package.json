@@ -15,7 +15,7 @@
     "babel-preset-es2015": "^6.24.1",
     "bootstrap": "^4.0.0",
     "browser-sync": "^2.9.3",
-    "gulp": "^3.9.0",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^3.0.1",
     "gulp-babel": "^7.0.1",
     "gulp-js-minify": "0.0.3",
